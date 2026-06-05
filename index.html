@@ -28,38 +28,93 @@
 
 <section id="sobre">
     <h2>Sobre Nós</h2>
-    <p>
-        A Terroir Brasil nasceu da paixão pelos cafés especiais produzidos nas
-        diversas regiões brasileiras. Cada grão carrega a identidade de sua origem,
-        proporcionando aromas e sabores únicos.
-    </p>
+   <section id="historia">
+    <div class="historia-container">
+
+        <div class="historia-texto">
+            <h2>Nossa História</h2>
+
+            <p>
+                A Terroir Brasil nasceu da admiração pelos cafés especiais produzidos
+                em diferentes regiões do país. Inspirados pelo conceito de
+                <strong>terroir</strong>, acreditamos que cada grão carrega a essência
+                do solo, do clima e das pessoas que o cultivam.
+            </p>
+
+            <p>
+                Nossa missão é aproximar produtores e consumidores, oferecendo uma
+                experiência que valoriza a diversidade dos sabores brasileiros.
+                Cada xícara conta uma história de tradição, dedicação e excelência.
+            </p>
+
+            <p>
+                Mais do que uma cafeteria, somos um espaço para encontros,
+                aprendizado e apreciação da rica cultura cafeeira do Brasil.
+            </p>
+        </div>
+
+        <div class="historia-card">
+            <h3>☕ Desde 2025</h3>
+            <p>
+                Compartilhando a riqueza dos terroirs brasileiros através de cafés
+                especiais selecionados.
+            </p>
+        </div>
+
+    </div>
+</section>
 </section>
 
 <section id="menu">
     <h2>Destaques do Cardápio</h2>
+<div class="filtros">
+        <button class="filtro-btn active" data-categoria="todos">Todos</button>
+        <button class="filtro-btn" data-categoria="cafes">Cafés</button>
+        <button class="filtro-btn" data-categoria="gelados">Gelados</button>
+        <button class="filtro-btn" data-categoria="doces">Doces</button>
+    </div>
 
     <div class="cards">
 
-        <div class="card">
+        <div class="card" data-categoria="cafes">
             <h3>Espresso Terroir</h3>
-            <p>Intenso e aromático.</p>
+            <p>Café intenso e aromático.</p>
             <span>R$ 8,00</span>
+            
         </div>
-
-        <div class="card">
-            <h3>Latte Brasileiro</h3>
-            <p>Cremoso e equilibrado.</p>
-            <span>R$ 15,00</span>
-        </div>
-
-        <div class="card">
+        <div class="card" data-categoria="cafes">
             <h3>Cappuccino Especial</h3>
             <p>Canela e chocolate artesanal.</p>
             <span>R$ 18,00</span>
         </div>
 
+        <div class="card" data-categoria="gelados">
+            <h3>Latte Gelado</h3>
+            <p>Café especial servido com gelo.</p>
+            <span>R$ 16,00</span>
+        </div>
+
+        <div class="card" data-categoria="gelados">
+            <h3>Mocha Ice</h3>
+            <p>Chocolate e café gelado.</p>
+            <span>R$ 19,00</span>
+        </div>
+
+        <div class="card" data-categoria="doces">
+            <h3>Cheesecake</h3>
+            <p>Frutas vermelhas artesanais.</p>
+            <span>R$ 14,00</span>
+        </div>
+
+        <div class="card" data-categoria="doces">
+            <h3>Brownie Terroir</h3>
+            <p>Chocolate belga.</p>
+            <span>R$ 12,00</span>
+        </div>
+
     </div>
 </section>
+
 
 <section class="diferenciais">
     <h2>Por que escolher a Terroir Brasil?</h2>
