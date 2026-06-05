@@ -224,3 +224,22 @@ nav{
     margin-bottom:15px;
     font-size:1.8rem;
 }
+
+#localizacao{
+    background:#ffffff;
+    text-align:center;
+}
+
+.texto-mapa{
+    margin-bottom:30px;
+    color:#2A2423;
+    font-size:1.1rem;
+}
+
+.mapa{
+    max-width:1000px;
+    margin:0 auto;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
