@@ -155,3 +155,72 @@ nav{
 }
 
 }
+
+.filtros{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:40px;
+    flex-wrap:wrap;
+}
+
+.filtro-btn{
+    background:#8B7355;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+.filtro-btn.active{
+    background:#2A2423;
+}
+
+.card.oculto{
+    display:none;
+}
+
+#historia{
+    background:#F4EEE8;
+}
+
+.historia-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.historia-texto{
+    flex:2;
+    min-width:300px;
+}
+
+.historia-texto h2{
+    text-align:left;
+    margin-bottom:25px;
+    color:#2A2423;
+}
+
+.historia-texto p{
+    margin-bottom:20px;
+    line-height:1.8;
+    font-size:1.05rem;
+}
+
+.historia-card{
+    flex:1;
+    min-width:280px;
+    background:#8B7355;
+    color:white;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.historia-card h3{
+    margin-bottom:15px;
+    font-size:1.8rem;
+}
