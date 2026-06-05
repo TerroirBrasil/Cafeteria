@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Georgia', serif;
+}
+
+body{
+    background:#F4EEE8;
+    color:#2A2423;
+}
+
+header{
+    min-height:100vh;
+    background:linear-gradient(
+    rgba(0,0,0,0.55),
+    rgba(0,0,0,0.55)),
+    url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+    background-size:cover;
+    background-position:center;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 10%;
+}
+
+nav h1{
+    color:#D8C7B5;
+    font-size:2rem;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    color:#F4EEE8;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#D8C7B5;
+}
+
+.hero{
+    text-align:center;
+    color:white;
+    margin-top:180px;
+    padding:20px;
+}
+
+.hero h2{
+    font-size:3.5rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
+button{
+    background:#8B7355;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    cursor:pointer;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#2A2423;
+}
+
+section{
+    padding:80px 10%;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2.2rem;
+}
+
+#sobre{
+    background:white;
+}
+
+.cards{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:center;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.card span{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+    color:#8B7355;
+}
+
+.diferenciais{
+    background:#D8C7B5;
+}
+
+.itens{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.itens div{
+    max-width:300px;
+    text-align:center;
+}
+
+footer{
+    background:#2A2423;
+    color:#F4EEE8;
+    text-align:center;
+    padding:40px;
+}
+
+@media(max-width:768px){
+
+.hero h2{
+    font-size:2.3rem;
+}
+
+nav{
+    flex-direction:column;
+    gap:20px;
+}
+
+}
