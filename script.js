@@ -26,7 +26,7 @@ botoes.forEach(botao => {
             } else {
                 card.classList.add("oculto");
             }
-
+const address = "Av. do Batel, 1550 - Batel, Curitiba - PR, 80420-090";
         });
 
     });
