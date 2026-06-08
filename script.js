@@ -4,6 +4,11 @@ function saudacao() {
     );
 }
 
+function toggleMenu() {
+  const menu = document.getElementById("menu");
+  menu.classList.toggle("active");
+}
+
 const botoes = document.querySelectorAll(".filtro-btn");
 const cards = document.querySelectorAll(".card");
 
